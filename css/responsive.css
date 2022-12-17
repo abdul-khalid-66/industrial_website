@@ -1,0 +1,273 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .text-bg h1 {
+        font-size: 56px;
+    }
+    .text-bg span {
+        font-size: 54px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .titlepage h2 {
+        font-size: 42px;
+    }
+    .text-bg h1 {
+        font-size: 42px;
+        padding-top: 63px;
+        line-height: 55px;
+    }
+    .text-bg span {
+        font-size: 45px;
+        line-height: 62px;
+    }
+    .services .services_box h3 {
+        font-size: 16px;
+    }
+    .cont h3 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 19px 10px;
+    }
+    .text-bg h1 {
+        font-size: 51px;
+        line-height: 70px;
+    }
+    .padding_lert2 {
+        padding-right: 0;
+    }
+    .services .services_box h3 {
+        font-size: 17px;
+    }
+    .text-bg span {
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .margin_bott {
+        margin-bottom: 30px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .text-bg figure img {
+        padding-top: 16px;
+    }
+    .titlepage h2 {
+        font-size: 31px;
+    }
+    .margin_boot {
+        border-right: inherit;
+    }
+    .achieved .achieved_box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .achieved .achieved_box .start {
+        padding-left: 0;
+        text-align: center;
+    }
+    .achieved .achieved_box .start h3 {
+        padding-top: 30px;
+    }
+    .business h3 {
+        font-size: 26px;
+    }
+    .cont h3 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+    .text-bg h1 {
+        font-size: 45px;
+        line-height: 63px;
+        padding-bottom: 25px;
+    }
+    .padding_lert2 {
+        padding-right: 0;
+    }
+    .text-bg span {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .achieved .achieved_box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .achieved .achieved_box .start {
+        padding-left: 0;
+        text-align: center;
+    }
+    .achieved .achieved_box .start h3 {
+        padding-top: 30px;
+    }
+    .main_form {
+        padding: 30px 0px 0px 0px;
+    }
+    .cont h3 {
+        font-size: 33px;
+    }
+    .margin_bott {
+        padding-bottom: 95px;
+    }
+    .margin_boot {
+        margin-bottom: 30px;
+        border-right: inherit;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #02185b;
+        padding: 20px;
+        margin-top: 52px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .padding_lert2 {
+        padding-right: 0;
+    }
+    .text-bg h1 {
+        font-size: 29px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .text-bg span {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .titlepage h2 {
+        font-size: 29px;
+        line-height: 44px;
+    }
+    .services .services_box h3 {
+        font-size: 16px;
+    }
+    .margin_bott {
+        padding-bottom: 95px;
+    }
+    .achieved .achieved_box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .achieved .achieved_box .start {
+        padding-left: 0;
+        text-align: center;
+    }
+    .achieved .achieved_box .start h3 {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .test_box {
+        padding: 0;
+    }
+    .main_form {
+        padding: 30px 0px 0px 0px;
+    }
+    .business h3 {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .margin_boot {
+        margin-bottom: 30px;
+        border-right: inherit;
+    }
+    .cont h3 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -45px;
+    }
+    .navigation .navbar-collapse {
+        background: #02185b;
+        padding: 20px;
+        margin-top: 62px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .cont_call h3 {
+        font-size: 33px;
+        line-height: 49px;
+    }
+}
+
